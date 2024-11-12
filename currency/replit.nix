@@ -1,5 +1,6 @@
 {pkgs}: {
   deps = [
+    pkgs.glibcLocales
     pkgs.tk
     pkgs.tcl
     pkgs.qhull
@@ -10,6 +11,5 @@
     pkgs.freetype
     pkgs.ffmpeg-full
     pkgs.cairo
-    pkgs.glibcLocales
   ];
 }
